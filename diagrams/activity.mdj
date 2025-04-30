@@ -1,0 +1,136 @@
+{
+	"_type": "Project",
+	"_id": "AAAAAAFF+h6SjaM2Hec=",
+	"name": "Untitled",
+	"ownedElements": [
+		{
+			"_type": "UMLModel",
+			"_id": "AAAAAAFF+qBWK6M3Z8Y=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Model",
+			"ownedElements": [
+				{
+					"_type": "UMLClassDiagram",
+					"_id": "AAAAAAFF+qBtyKM79qY=",
+					"_parent": {
+						"$ref": "AAAAAAFF+qBWK6M3Z8Y="
+					},
+					"name": "Main",
+					"defaultDiagram": true
+				}
+			]
+		},
+		{
+			"_type": "UMLActivity",
+			"_id": "AAAAAAGWgp05k2CAgVk=",
+			"_parent": {
+				"$ref": "AAAAAAFF+h6SjaM2Hec="
+			},
+			"name": "Activity1",
+			"ownedElements": [
+				{
+					"_type": "UMLActivityDiagram",
+					"_id": "AAAAAAGWgp05k2CBImc=",
+					"_parent": {
+						"$ref": "AAAAAAGWgp05k2CAgVk="
+					},
+					"name": "ActivityDiagram1",
+					"ownedViews": [
+						{
+							"_type": "UMLSwimlaneView",
+							"_id": "AAAAAAGWgp1SZ2CHkWA=",
+							"_parent": {
+								"$ref": "AAAAAAGWgp05k2CBImc="
+							},
+							"model": {
+								"$ref": "AAAAAAGWgp1SZmCF3uE="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWgp1SZ2CIND0=",
+									"_parent": {
+										"$ref": "AAAAAAGWgp1SZ2CHkWA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 64,
+									"top": 92,
+									"width": 288,
+									"height": 13,
+									"text": "ActivityPartition1",
+									"verticalAlignment": 3
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 64,
+							"top": 88,
+							"width": 288,
+							"height": 440,
+							"nameLabel": {
+								"$ref": "AAAAAAGWgp1SZ2CIND0="
+							}
+						},
+						{
+							"_type": "UMLSwimlaneView",
+							"_id": "AAAAAAGWgp1x9mCPxUA=",
+							"_parent": {
+								"$ref": "AAAAAAGWgp05k2CBImc="
+							},
+							"model": {
+								"$ref": "AAAAAAGWgp1x9mCNL9o="
+							},
+							"subViews": [
+								{
+									"_type": "LabelView",
+									"_id": "AAAAAAGWgp1x9mCQI+k=",
+									"_parent": {
+										"$ref": "AAAAAAGWgp1x9mCPxUA="
+									},
+									"font": "Arial;13;0",
+									"parentStyle": true,
+									"left": 352,
+									"top": 92,
+									"width": 320,
+									"height": 13,
+									"text": "ActivityPartition2",
+									"verticalAlignment": 3
+								}
+							],
+							"font": "Arial;13;0",
+							"parentStyle": false,
+							"left": 352,
+							"top": 88,
+							"width": 320,
+							"height": 440,
+							"nameLabel": {
+								"$ref": "AAAAAAGWgp1x9mCQI+k="
+							}
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"_type": "UMLActivityPartition",
+					"_id": "AAAAAAGWgp1SZmCF3uE=",
+					"_parent": {
+						"$ref": "AAAAAAGWgp05k2CAgVk="
+					},
+					"name": "ActivityPartition1"
+				},
+				{
+					"_type": "UMLActivityPartition",
+					"_id": "AAAAAAGWgp1x9mCNL9o=",
+					"_parent": {
+						"$ref": "AAAAAAGWgp05k2CAgVk="
+					},
+					"name": "ActivityPartition2"
+				}
+			]
+		}
+	]
+}
